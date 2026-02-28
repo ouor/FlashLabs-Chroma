@@ -1,7 +1,9 @@
+--extra-index-url https://download.pytorch.org/whl/cu126
+
 # Core dependencies
-torch==2.7.1
-torchvision==0.22.1
-torchaudio==2.7.1
+torch==2.7.1+cu126
+torchvision==0.22.1+cu126
+torchaudio==2.7.1+cu126
 transformers==5.0.0rc0
 
 # Audio processing
